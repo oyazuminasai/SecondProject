@@ -1,0 +1,25 @@
+header{
+  height: 90px;
+  width: 100%;
+  background-color: #5b7989;
+  position: fixed;
+  top: 0;
+}
+#section1{
+  height: 600px;
+  width: 100%;
+  background-color: #82c3a6;
+}
+#section2{
+  height: 500px;
+  width: 100%;
+  background-color:  #d5c75f;
+}
+footer{
+  clear: both;
+  height: 150px;
+  width: 100%;
+  background-color: #C6d5c5;
+  position: fixed;
+  bottom: 0;
+}
