@@ -21,23 +21,18 @@ body{
   align-items: center;
   justify-content: space-around;
 }
-#paisajeP{
-  width: 75%;
-  margin: auto;
+nav a{
+  color:#FFFFFF;
 }
-
+#aPaisajes{
+  text-decoration: none;
+}
 #portadaS{
   height: 450px;
   width: 100%;
   background-color: #82c3a6;
   display: flex;
   align-items: center;
-}
-#portadaI{
-  height: 400px;
-  width: 100%;
-  background-color:  #d5c75f;
-  display: flex;
 }
 #footer{
   height: 300px;
@@ -49,50 +44,6 @@ body{
   color:black;
   align-items: center;
   flex-basis: 25%;
-}
-#portadaI a{
-  color: black;
-  border: 1px;
-}
-nav a{
-  color:#FFFFFF;
-}
-#aInicio{
-  text-decoration: none;
-}
-#caja1Pi{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 3%;
-}
-#caja2Pi{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 3%;
-}
-#paisajeS{
-  width: 80%;
-  border: 2px;
-  margin: auto;
-  box-shadow: 5px 10px #82c3a6;
-  transition: transform 1s;
-}
-#paisajeS:hover{
-  transform: rotate(10deg);
-}
-#retrato{
-  width: 80%;
-  border: 2px;
-  margin: auto;
-  box-shadow: 5px 10px #82c3a6;
-  transition:transform 2s;
-}
-#retrato:hover{
-  transform: translate(20px,-5px);
 }
 #contacto{
   margin-left: 2%;
@@ -111,7 +62,34 @@ a[href^="http"]{
   text-decoration: none;
   color: black;
 }
-
+table{
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+td img{
+  width: 100%;
+}
+#paisajeP1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+#paisajeP2{
+  -webkit-filter: grayscale(100%);
+  filter:grayscale(100%);
+}
+#paisajeP4{
+  -webkit-filter: grayscale(100%);
+  filter:grayscale(100%);
+}
+#paisajeP6{
+  -webkit-filter: grayscale(100%);
+  filter:grayscale(100%);
+}
+#paisajeP3{
+  -webkit-filter: sepia(90%);
+  filter:sepia(90%);
+}
 @-webkit-keyframes animContainer{
   0%{
     margin-top: 150%;
